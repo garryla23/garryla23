@@ -1,7 +1,1 @@
-{
-  "macAddress": "9c:1c:12:b0:45:f1",
-  "signalStrength": -43,
-  "signalToNoiseRatio": 0,
-  "channel": 11,
-  "age": 0
-}
+curl -H "Accept: application/vnd.github.v3+json" "https://api.github.com/search/users?q=location:Russia+followers:>100+language:JavaScript+created:%3E2023-01-01+stars:%3E50"
